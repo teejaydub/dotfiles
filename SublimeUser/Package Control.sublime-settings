@@ -1,0 +1,24 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+		"Package Control"
+	],
+	"installed_packages":
+	[
+		"GitGutter",
+		"Jedi - Python autocompletion",
+		"JSX",
+		"Neon Color Scheme",
+		"Package Control",
+		"Python Breakpoints",
+		"Python Fix Imports",
+		"Python Flake8 Lint",
+		"Python Improved",
+		"React IDE",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
+		"SuperPython",
+		"TrailingSpaces"
+	]
+}

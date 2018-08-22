@@ -1,0 +1,4 @@
+// These settings override both User and Default settings for the Markdown syntax
+{
+	"trailing_spaces_trim_on_save": false
+}

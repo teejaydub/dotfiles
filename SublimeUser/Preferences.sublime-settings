@@ -1,0 +1,13 @@
+{
+	"color_scheme": "Packages/User/Neon (Flake8Lint).tmTheme",
+	"font_size": 10,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Package Control",
+		"Vintage"
+	],
+	"shift_tab_unindent": false,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": false
+}
