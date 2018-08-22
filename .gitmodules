@@ -1,0 +1,3 @@
+[submodule "bashgit"]
+	path = bashgit
+	url = https://github.com/oyvindstegard/bashgit.git
