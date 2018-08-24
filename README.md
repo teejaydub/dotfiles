@@ -7,8 +7,9 @@ On a new machine running Linux:
 
 ```
 cd ~
-git clone ...
-dotfiles/setup.sh
+git clone https://github.com/teejaydub/dotfiles.git
+cd dotfiles
+./setup.sh
 ```
 
 Make sure this project is in the home directory, and called `dotfiles`.
