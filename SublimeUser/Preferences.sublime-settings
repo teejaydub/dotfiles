@@ -1,10 +1,12 @@
 {
 	"color_scheme": "Packages/User/Neon (Flake8Lint).tmTheme",
-	"font_size": 10,
+	"font_size": 12,
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Package Control",
+		"Python Flake8 Lint",
+		"SublimeLinter",
+		"SublimeLinter-eslint",
 		"Vintage"
 	],
 	"shift_tab_unindent": false,
