@@ -9,6 +9,10 @@ git config credential.helper 'cache --timeout=1200'
 git submodule init
 git submodule update
 
+# Install keychain to deal with certs (required on WSL).
+sudo apt update
+sudo apt install keychain
+
 # Install Sublime Text
 cd ~/Downloads
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
