@@ -2,7 +2,6 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"Package Control"
 	],
 	"installed_packages":
 	[
@@ -10,6 +9,7 @@
 		"Jedi - Python autocompletion",
 		"JSX",
 		"Neon Color Scheme",
+		"OpenScad",
 		"Package Control",
 		"Python Breakpoints",
 		"Python Fix Imports",
@@ -17,8 +17,8 @@
 		"Python Improved",
 		"React IDE",
 		"SublimeLinter",
-		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-eslint",
 		"SuperPython",
 		"TrailingSpaces"
-	]
+	],
 }
