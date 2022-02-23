@@ -4,8 +4,7 @@
 source $HOME/.keychain/$HOSTNAME-sh
 
 # SSH keys, for AWS instances e.g.
-set -- ~/.ssh/*.pem
-if [ -f "$1" ]; then
+if [ -n "~/.ssh/*.pem" ]; then
 	ssh-add ~/.ssh/*.pem
 fi
 
