@@ -17,6 +17,7 @@ sudo apt-get install -y \
   xz-utils \
   tk-dev \
   liblzma-dev \
+  python-pip \
   || exit
 
 # Install pyenv.
