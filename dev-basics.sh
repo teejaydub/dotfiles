@@ -17,16 +17,11 @@ sudo apt-get install -y \
   xz-utils \
   tk-dev \
   liblzma-dev \
-  python-pip \
+  python3-pip \
   || exit
 
-# Install pyenv.
-git clone https://github.com/pyenv/pyenv.git ~/.pyenv
-echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
-echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
-echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.bash_profile
-exec "$SHELL"
+# Install uv, if not already installed.
+uv --version || curl -LsSf https://astral.sh/uv/install.sh | sh
 
-echo Now you may need to exit and return.
-echo Under WSL, do `wsl --shutdown` and then `wsl` again.
-
+# Install lazygit, if not already installed.
+lazygit --version || ./install_lazygit.sh

@@ -11,5 +11,3 @@ fi
 if [ -f ~/dotfiles/bashgit/.bashgit ]; then
   . ~/dotfiles/bashgit/.bashgit
 fi
-
-alias acthere="source env/bin/activate"
